@@ -13,3 +13,8 @@ def mul(a, b):
 def div(a, b):
   try: return a / b
   except ZeroDivisionError: print('Can\'t divide by zero')
+
+    
+def pow(a, b):
+  return a ** b
+    
